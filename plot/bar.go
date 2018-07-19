@@ -22,11 +22,11 @@ func Bar(args []string) error {
 	if err != nil {
 		return err
 	}
-	drawBars(values)
+	DrawBars(values)
 	return nil
 }
 
-func drawBars(values []LabeledValue) {
+func DrawBars(values []LabeledValue) {
 	if len(values) == 0 {
 		return
 	}

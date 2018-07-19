@@ -108,5 +108,5 @@ func drawBins(bins []Bin) {
 	if len(bins) > 1 {
 		bars[0].Label = fmt.Sprintf("%.2f -> %.2f", bins[0].Left, bins[0].Right)
 	}
-	drawBars(bars)
+	DrawBars(bars)
 }
